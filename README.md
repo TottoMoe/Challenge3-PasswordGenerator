@@ -1,4 +1,4 @@
-# 03 JavaScript: Password Generator
+# 03 JavaScript: 
 
 ## Click the button to start the password genterator
 

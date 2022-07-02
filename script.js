@@ -16,7 +16,9 @@ function writePassword() {
     var number = confirm("Do you want to include Number!");
     var symbol = confirm("Do you want to include Symbol!");
   }
-
+  if (!lowerCase && !upperCase && !number && !symbol) {
+    return;
+  }
   var passwordNew = generatePassword(length,lowerCase, upperCase, number, symbol);
   var passwordText = document.querySelector("#password");
     
